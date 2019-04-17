@@ -2,10 +2,19 @@
 <html lang="es">
 
 <head>
-    <title>Examen final DIseño Web</title>
+    <title>Examen final Diseño Web</title>
 
     <style>
-       
+       .btn-circle.btn-xl {
+    width: 40px;
+    height: 40px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 10px;
+    line-height: 1.33;
+}
+
+
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -21,9 +30,81 @@
 </head>
 
 <body>
+
+<center>
+
     <div class="container-fluid">
-        <img src="../img/screens/login.png">
+<table>
+<tr>
+<td>
+    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Iniciar Sesion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Registrar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </label>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<img src="../img/login_Rocket.png" height="140" width="340" />
+</td>
+</tr>
+
+<tr>
+<td>
+<p style="color:#73E600" align="center" style="font-size:11px" > Log in with your Social Account </p>
+</td>
+</tr>
+<tr>
+<td>
+
+<center>
+<img src="../img/Login_Flogo.png" width="30" height="30" /><img src="../img/Login_Flogo.png" width="30" height="30" /><img src="../img/Login_Flogo.png" width="30" height="30" /><img src="../img/Login_Flogo.png" width="30" height="30" /><img src="../img/Login_Flogo.png" width="30" height="30" />
+<p></p>
+<p style="color:#999" align="center" style="font-size:11px" > ----------------<b>OR</b>----------------  </p>
+</center>
+
+</td>
+</tr>
+
+<tr>
+<td>
+
+<form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email Address</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email Address">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Mantenerme Conectado
+      </label>
+    </div>
+  </div>
+  <p style="color:#73E600" align="center" style="font-size:xx-small" > ¿Olvidaste tu Contraseña? </p>
+  
+  <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+</form>
+
+</td>
+</tr>
+
+</table>
     </div>   
+
+</center>
 
 </body>
 
