@@ -15,6 +15,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+ 
     <style>
         body{
               width:;
@@ -28,16 +30,15 @@
         }
        
           .Container{
-width: 100px;
-              height: 500px;
-              
+
+           
         
            }
         .row{
-            margin-top: 130px;
+            margin-top: 110px;
             
         }
-        .col-sm-8{
+        .col-sm-6{
 
             color: aliceblue;
             
@@ -49,6 +50,22 @@ width: 100px;
             color:chartreuse;
         }
         p{color: aliceblue}
+        
+        
+        
+        @charset "UTF-8";
+ * {
+  padding:10px;
+  margin: ;
+}
+/* Backgrounds */
+
+
+/*Cambio de tamaño a los container*/
+
+.container-fluid {
+  max-height: 400px;
+}
         
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -62,19 +79,24 @@ width: 100px;
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+      <meta chartset="Utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="sheetStyle.css">
 </head>
 
 <body>
   
   <div>
-<div class="container">
+<div class="container-fluid" id="background-head">
   <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-6">
       <h1>Empodérate</h1>
-        <div class="p"> Free online courses from the world's leading experts.</div>
+        <div class="p"> Free online courses   <span style="color: aliceblue" >from the world's leading experts.</span></div>
         <p>Join 13 million learners today.</p>
-        <button type="button" class="btn btn-outline-secondary">Sing up now</button>   or
-  <button type="button" class="btn btn-outline-success">View courses</button>
+         <button type="button" class="btn btn-success">Sing up now</button>or
+        <button type="button" class="btn btn-outline-secondary">View courses</button>  
     </div>
       
     <div class="col-sm-4">
